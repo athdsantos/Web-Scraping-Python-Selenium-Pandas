@@ -4,7 +4,7 @@ try:
   from time import sleep
   options = webdriver.ChromeOptions()
   options.add_argument("--headless")
-  driver = webdriver.Chrome(chrome_options=options, executable_path='J:\\Desenvolvimento\\webscraping\\order-status\\chromedriver.exe')
+  driver = webdriver.Chrome(chrome_options=options, executable_path='your path with navigator driver.')
 except Exception as error:
   print(f'{error}\nError in a importation!')
 except KeyboardInterrupt:
