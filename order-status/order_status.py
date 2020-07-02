@@ -90,7 +90,7 @@ def run_script():
 try:
   order_number = input('Order number: ')
   run_script()
-  #PY547222295BR
+  #your order number
 except Exception as error:
   print(error)
 except KeyboardInterrupt:
